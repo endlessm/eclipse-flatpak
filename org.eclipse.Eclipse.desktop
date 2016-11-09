@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Eclipse
+GenericName=Development Environment
+X-GNOME-FullName=Eclipse Development Environment
+Comment=Develop Java applications
+Keywords=development;ide;java;
+Exec=/app/eclipse/eclipse
+Icon=org.eclipse.Eclipse
+Terminal=false
+Type=Application
+Categories=Utility;
+StartupNotify=true
+StartupWMClass=Eclipse

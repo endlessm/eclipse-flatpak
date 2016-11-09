@@ -1,0 +1,65 @@
+{
+	"app-id": "org.eclipse.Eclipse",
+	"runtime": "org.gnome.Platform",
+	"runtime-version": "3.22",
+	"branch": "4.6",
+	"sdk": "org.gnome.Sdk",
+	"command": "eclipse",
+	"finish-args": [
+		"--socket=x11",
+		"--share=ipc",
+		"--share=network",
+		"--device=all",
+		"--filesystem=~/workspace;~/.m2;~/.eclipse;/etc/hosts:ro;"
+	],
+	"cleanup": [
+		"/COPYRIGHT",
+		"/LICENSE",
+		"/README",
+		"/release",
+		"/THIRDPARTYLICENSEREADME-JAVAFX.txt",
+		"/THIRDPARTYLICENSEREADME.txt",
+		"/Welcome.html",
+		"/plugin",
+		"/man",
+		"/lib/applet",
+		"/lib/desktop",
+		"/eclipse/readme",
+		"/eclipse/notice.html"
+	],
+	"modules": [
+		{
+			"name": "eclipse",
+			"no-autogen": true,
+			"sources": [
+				{
+					"type": "archive",
+					"url": "http://mirror.ibcp.fr/pub/eclipse//technology/epp/downloads/release/neon/1a/eclipse-cpp-neon-1a-linux-gtk-x86_64.tar.gz",
+					"sha256": "7b7e720035cd5269882cc6be4ea9c7cde6190a574a5e3d6faee86e03a0752217",
+					"dest": "eclipse"
+				},
+				{
+					"type": "file",
+					"url": "http://javadl.oracle.com/webapps/download/AutoDL?BundleId=207765",
+					"sha256": "66d8971b240bbd03d114308958fff0fb8068d0589122885d9591727e5472137f",
+					"dest-filename": "jdk8.tar.gz"
+				},
+				{
+					"type": "file",
+					"path": "Makefile",
+					"dest-filename": "Makefile"
+				},
+				{
+					"type": "file",
+					"path": "org.eclipse.Eclipse.png",
+					"dest": "app/share/icons/hicolor/128x128/apps"
+				},
+				{
+					"type": "file",
+					"path": "org.eclipse.Eclipse.desktop",
+					"dest": "app/share/applications"
+				}
+			]
+		}
+	]
+}

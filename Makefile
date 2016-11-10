@@ -1,7 +1,8 @@
-all: jdk8.tar.gz
-	tar --strip-components=1 -xzf jdk8.tar.gz -C app
+all:
+	true
 
 install:
+	mkdir -p /app/bin
 	mv eclipse app/* /app/
 	ln -sf /app/eclipse/eclipse /app/bin/eclipse
 

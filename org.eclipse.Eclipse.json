@@ -95,6 +95,11 @@
 					"type": "file",
 					"path": "org.eclipse.Eclipse.desktop",
 					"dest": "app/share/applications"
+				},
+				{
+					"type": "file",
+					"path": "org.eclipse.Eclipse.appdata.xml",
+					"dest-filename": "org.eclipse.Eclipse.appdata.xml"
 				}
 			]
 		}

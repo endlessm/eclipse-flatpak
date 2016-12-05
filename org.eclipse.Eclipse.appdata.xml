@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-  <id>org.eclipse.eclipse</id>
-  <metadata_license>CC-BY-SA-3.0</metadata_license>
-  <project_license>Apache-2.0 and EPL-1.0</project_license>
-  <name>Eclipse</name>
-  <summary>Extensible Tool platform and development IDE</summary>
-  <description>
-    <p>
-      The Eclipse Platform is an open and extensible platform for anything and yet nothing in particular.
-      It provides a foundation for constructing and running integrated software-development tools. The Eclipse 
-      Platform allows tool builders to independently develop tools that integrate with other people's tools so 
-      seamlessly you can't tell where one tool ends and another starts.
-    </p>
-    <p>
-      This package provides the whole Eclipse SDK that contains Eclipse Platform, Java development tools
-      and Plug-in Development Environment, including source and both user and programmer documentation.
-    </p>
-   </description>
-   <screenshots>
-     <screenshot type="default" width="1200" height="675">http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.eclipse-build.git/plain/desktopintegration/screenshot1.png</screenshot>
-   </screenshots>
- <url type="homepage">http://eclipse.org</url>
+	<id>org.eclipse.Eclipse.desktop</id>
+	<metadata_license>CC-BY-SA-3.0</metadata_license>
+	<project_license>Apache-2.0 and EPL-1.0</project_license>
+	<name>Eclipse</name>
+	<summary>Extensible Tool platform and development IDE</summary>
+	<description>
+		<p>
+			The Eclipse Platform is an open and extensible platform for anything and yet nothing
+			in particular. It provides a foundation for constructing and running integrated
+			software-development tools. The Eclipse Platform allows tool builders to independently
+			develop tools that integrate with other people's tools so seamlessly you can't tell
+			where one tool ends and another starts.
+		</p>
+		<p>
+			This package provides the whole Eclipse SDK that contains Eclipse Platform, Java
+			development tools and Plug-in Development Environment, including source and both
+			user and programmer documentation.
+		</p>
+	</description>
+	<screenshots>
+		<screenshot type="default" width="1200" height="675">
+			<image>http://git.eclipse.org/c/linuxtools/org.eclipse.linuxtools.eclipse-build.git/plain/desktopintegration/screenshot1.png</image>
+			<caption>Eclipse desktop view</caption>
+		</screenshot>
+	</screenshots>
+	<url type="homepage">http://eclipse.org</url>
 </component>

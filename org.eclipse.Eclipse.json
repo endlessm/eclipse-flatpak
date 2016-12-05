@@ -10,7 +10,9 @@
 		"--share=ipc",
 		"--share=network",
 		"--device=all",
-		"--filesystem=~/workspace;~/.m2;~/.eclipse;/etc/hosts:ro;"
+		"--filesystem=~/workspace;~/.m2;~/.eclipse;/etc/hosts:ro;",
+		"--env=JAVA_HOME=/app/usr/lib/jvm/java-8-openjdk-amd64",
+		"--env=PATH=/app/bin:/usr/bin:/app/usr/lib/jvm/java-8-openjdk-amd64/bin"
 	],
 	"cleanup": [
 		"/COPYRIGHT",
@@ -71,8 +73,10 @@
 				{
 					"type": "shell",
 					"commands": [
-						"echo '== Unpacking Debian packages =='",
-						"for deb in jdk8-debs/*.deb ; do ar p ${deb} data.tar.xz | unxz | tar x ; done"
+						"echo '== Unpacking and copying Debian packages =='",
+						"mkdir openjdk",
+						"for deb in jdk8-debs/*.deb ; do ar p ${deb} data.tar.xz | unxz | tar x -C openjdk; done",
+						"mv openjdk/* /app/"
 					]
 				},
 				{

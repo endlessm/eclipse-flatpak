@@ -14,9 +14,9 @@
 			where one tool ends and another starts.
 		</p>
 		<p>
-			This package provides the whole Eclipse SDK that contains Eclipse Platform, Java
-			development tools and Plug-in Development Environment, including source and both
-			user and programmer documentation.
+			This package provides the 'Eclipse IDE for Java Developers bundle' which contains the
+			essential tools for any Java developer, including a Java IDE, a Git client, XML Editor,
+			Mylyn, Maven and Gradle integration.
 		</p>
 	</description>
 	<screenshots>

@@ -81,8 +81,8 @@
 				},
 				{
 					"type": "archive",
-					"url": "http://mirror.ibcp.fr/pub/eclipse//technology/epp/downloads/release/neon/1a/eclipse-cpp-neon-1a-linux-gtk-x86_64.tar.gz",
-					"sha256": "7b7e720035cd5269882cc6be4ea9c7cde6190a574a5e3d6faee86e03a0752217",
+					"url": "http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/neon/1a/eclipse-java-neon-1a-linux-gtk-x86_64.tar.gz",
+					"sha256": "cd22d953dee2db30d86c51a50189dd062c8ac68c5776cbe525a7f852986f23b5",
 					"dest": "eclipse"
 				},
 				{

@@ -92,18 +92,15 @@
 				},
 				{
 					"type": "file",
-					"path": "org.eclipse.Eclipse.png",
-					"dest": "app/share/icons/hicolor/128x128/apps"
+					"path": "org.eclipse.Eclipse.png"
 				},
 				{
 					"type": "file",
-					"path": "org.eclipse.Eclipse.desktop",
-					"dest": "app/share/applications"
+					"path": "org.eclipse.Eclipse.desktop"
 				},
 				{
 					"type": "file",
-					"path": "org.eclipse.Eclipse.appdata.xml",
-					"dest-filename": "org.eclipse.Eclipse.appdata.xml"
+					"path": "org.eclipse.Eclipse.appdata.xml"
 				}
 			]
 		}
